@@ -46,9 +46,9 @@ int	main(int ac, char **av)
 		{
 			ft_clean_table(&table);
 			return (ERROR);
-        }
+        	}
 
-        // MOVE UP THE FOLLOWING IF CHECK
+        	// MOVE UP THE FOLLOWING IF CHECK
 		if (table.max_meal == 0)
 			return (OK);
 
@@ -66,10 +66,10 @@ int	main(int ac, char **av)
 		if (ft_check_n_fill_table(av, &table) == ERROR)
 			return (ERROR);
 
-        // EDIT BEGIN
+        	// EDIT BEGIN
 		if (table.max_meal == 0)
 			return (OK);
-        //EDIT END
+        	//EDIT END
 
 		if (ft_make_spoon(&table) == ERROR || ft_make_philo(&table) == ERROR)
 		{
