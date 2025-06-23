@@ -32,7 +32,7 @@ Then you can use the program like this:
 
 - max_nb_meals (optional): If all philosophers eat this many times, simulation ends
 
-## Examples
+## Example
 
 Using the values `4`, `410`, `200`, `200`:  
 <video src="https://github.com/user-attachments/assets/9daa6b96-51fd-4905-9ed4-4592b06fb5c8" controls></video>
@@ -46,52 +46,28 @@ All projects from my 42 cursus are preserved in their state immediately followin
 The program has a memory leak when the value `0` is passed as `max_nb_meals`:
 ![Leak](https://i.ibb.co/20B0H9Cm/Screenshot-from-2025-06-23-16-26-26.png)  
 
-One easy way to fix this is to modify the main function:  
-```C
-int	main(int ac, char **av)
-{
-	t_table	table;
+One easy way to fix this is to modify the main function like this:  
+```diff
+ int	main(int ac, char **av)
+ {
+ 	t_table	table;
 
-	if (ac == 5 || ac == 6)
-	{
-		if (ft_check_n_fill_table(av, &table) == ERROR)
-			return (ERROR);
-		if (ft_make_spoon(&table) == ERROR || ft_make_philo(&table) == ERROR)
-		{
-			ft_clean_table(&table);
-			return (ERROR);
-        	}
+ 	if (ac == 5 || ac == 6)
+ 	{
+ 		if (ft_check_n_fill_table(av, &table) == ERROR)
+ 			return (ERROR);
 
-        	// MOVE UP THE FOLLOWING IF STATEMENT
-		if (table.max_meal == 0)
-			return (OK);
-
-...
-```
-
-Like so:  
-```C
-int	main(int ac, char **av)
-{
-	t_table	table;
-
-	if (ac == 5 || ac == 6)
-	{
-		if (ft_check_n_fill_table(av, &table) == ERROR)
-			return (ERROR);
-
-        	// EDIT BEGIN
-		if (table.max_meal == 0)
-			return (OK);
-        	//EDIT END
++		if (table.max_meal == 0)
++			return (OK);
 
 		if (ft_make_spoon(&table) == ERROR || ft_make_philo(&table) == ERROR)
 		{
 			ft_clean_table(&table);
 			return (ERROR);
-        	}
+		}
 
-...
+-		if (table.max_meal == 0)
+-			return (OK);
 ```
 
 ## License
