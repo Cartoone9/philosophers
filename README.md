@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.ibb.co/cmF80PB/image.png" alt="Project score">
+  <img src="https://i.ibb.co/Zzx7BpbW/Screenshot-from-2025-06-23-17-23-40.png" alt="Project score">
 </div>
 
 # philosophers
