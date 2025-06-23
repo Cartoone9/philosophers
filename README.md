@@ -20,15 +20,9 @@ Then you can use the program like this:
 
 ## Examples
 
-- For the values `4`, `410`, `200`, `200`:  
-[Philo example](https://github.com/user-attachments/assets/d48532c6-ccdb-41bb-a247-f536dfca3787)
-https://youtu.be/5w7A9Jm01S0?si=nf1cQK7a1sH36qvM
-[Philo youtube](https://youtu.be/5w7A9Jm01S0?si=nf1cQK7a1sH36qvM)
-https://www.youtube.com/watch?v=5w7A9Jm01S0
-[Philo youtube](https://www.youtube.com/watch?v=5w7A9Jm01S0)
-<video src="https://www.youtube.com/watch?v=5w7A9Jm01S0" controls></video>
-<video src="https://youtu.be/5w7A9Jm01S0?si=nf1cQK7a1sH36qvM" controls></video>
+Using the values `4`, `410`, `200`, `200`:  
 <video src="https://github.com/user-attachments/assets/d48532c6-ccdb-41bb-a247-f536dfca3787" controls></video>
+
 ## Note on Project State
 
 All projects from my 42 cursus are preserved in their state immediately following their final evaluation. While they may contain mistakes or stylistic errors, I've chosen not to alter them. This approach provides a clear and authentic timeline of my progress and learning journey as a programmer.
