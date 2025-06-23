@@ -48,7 +48,7 @@ int	main(int ac, char **av)
 			return (ERROR);
         	}
 
-        	// MOVE UP THE FOLLOWING IF CHECK
+        	// MOVE UP THE FOLLOWING IF STATEMENT
 		if (table.max_meal == 0)
 			return (OK);
 
@@ -75,7 +75,7 @@ int	main(int ac, char **av)
 		{
 			ft_clean_table(&table);
 			return (ERROR);
-        }
+        	}
 
 ...
 ```
