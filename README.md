@@ -21,7 +21,7 @@ Then you can use the program like this:
 ## Examples
 
 - For the values `4`, `410`, `200`, `200`:  
-[Screencast from 23-06-2025 16:47:06.webm](https://github.com/user-attachments/assets/d48532c6-ccdb-41bb-a247-f536dfca3787)
+[Philo example](https://github.com/user-attachments/assets/d48532c6-ccdb-41bb-a247-f536dfca3787)
 
 ## Note on Project State
 
