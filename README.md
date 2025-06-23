@@ -21,7 +21,7 @@ Then you can use the program like this:
 ## Examples
 
 - For the values `4`, `410`, `200`, `200`:
-[![Philo example](https://github.com/user-attachments/assets/e56650c0-2c7b-4045-a982-0063acadc7e6)](https://github.com/user-attachments/assets/386ce96b-6b5b-4490-929f-90b8b8d10a89)
+https://github.com/user-attachments/assets/386ce96b-6b5b-4490-929f-90b8b8d10a89
 
 ## Note on Project State
 
