@@ -20,7 +20,7 @@ Then you can use the program like this:
 
 ## Examples
 
-- For the values `4`, `410`, `200`, `200`:
+- For the values `4`, `410`, `200`, `200`:  
 https://github.com/user-attachments/assets/386ce96b-6b5b-4490-929f-90b8b8d10a89
 
 ## Note on Project State
