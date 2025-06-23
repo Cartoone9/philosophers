@@ -21,7 +21,7 @@ Then you can use the program like this:
 ## Examples
 
 Using the values `4`, `410`, `200`, `200`:  
-<video src="https://github.com/user-attachments/assets/d48532c6-ccdb-41bb-a247-f536dfca3787" controls></video>
+<video src="https://github.com/user-attachments/assets/9daa6b96-51fd-4905-9ed4-4592b06fb5c8" controls></video>
 
 ## Note on Project State
 
@@ -29,7 +29,7 @@ All projects from my 42 cursus are preserved in their state immediately followin
 
 ## Known Issues & Fix Suggestions
 
-The program has a leak when the value `0` is passed as `max_nb_meals`:
+The program has a memory leak when the value `0` is passed as `max_nb_meals`:
 ![Leak](https://i.ibb.co/20B0H9Cm/Screenshot-from-2025-06-23-16-26-26.png)  
 
 One easy way to fix this is to modify the main function:  
