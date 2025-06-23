@@ -21,7 +21,7 @@ Then you can use the program like this:
 ## Examples
 
 - For the values `4`, `410`, `200`, `200`:  
-https://github.com/user-attachments/assets/386ce96b-6b5b-4490-929f-90b8b8d10a89
+<iframe width="560" height="315" src="https://youtube.com/shorts/5w7A9Jm01S0?si=mPYTonrFPGItQ05E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Note on Project State
 
