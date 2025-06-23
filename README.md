@@ -68,6 +68,8 @@ One easy way to fix this is to modify the main function like this:
 
 -		if (table.max_meal == 0)
 -			return (OK);
+
+...
 ```
 
 ## License
