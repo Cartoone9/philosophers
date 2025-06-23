@@ -4,7 +4,11 @@
 
 # philosophers
   
-Here you'll find my Philosophers project, an assignment from 42 School. The main goal was to solve the dining philosophers problem, which meant learning to control how different parts of a program access the same things at once. This experience was vital for understanding multithreading, how to avoid common problems like deadlocks, and working with shared resources in C programming.
+This is my implementation of the Dining Philosophers problem for 42 School. The goal was to manage concurrency and shared resources safely in C using threads and mutexes. Through this, I learned the fundamentals of multithreading, deadlock avoidance, and synchronization.
+
+### The Dining Philosophers Problem
+
+The Dining Philosophers problem is a classic concurrency scenario where several philosophers sit around a table, each needing two forks to eat: one from their left and one from their right. Since the forks are shared between neighbors, a naive implementation can lead to deadlocks (where everyone is waiting forever) or starvation (where some never get to eat). The challenge lies in coordinating access to these shared resources safely and efficiently using threads and synchronization.
 
 ## Usage
 
@@ -17,6 +21,16 @@ Then you can use the program like this:
 ```bash
 ./philo nb_philosophers time_to_die time_to_eat time_to_sleep [max_nb_meals]
 ```
+
+- nb_philosophers: Number of philosophers
+
+- time_to_die: Time in ms before a philosopher dies without eating
+
+- time_to_eat: Time in ms a philosopher takes to eat
+
+- time_to_sleep: Time in ms a philosopher sleeps
+
+- max_nb_meals (optional): If all philosophers eat this many times, simulation ends
 
 ## Examples
 
