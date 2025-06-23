@@ -21,10 +21,7 @@ Then you can use the program like this:
 ## Examples
 
 - For the values `4`, `410`, `200`, `200`:
-![Philo first example]()
-
-- For the values `5`, `800`, `200`, `200`:
-![Philo second example]()
+![Philo example](https://github.com/user-attachments/assets/e56650c0-2c7b-4045-a982-0063acadc7e6)(https://github.com/user-attachments/assets/386ce96b-6b5b-4490-929f-90b8b8d10a89)
 
 ## Note on Project State
 
@@ -50,6 +47,7 @@ int	main(int ac, char **av)
 			ft_clean_table(&table);
 			return (ERROR);
         }
+
         // MOVE UP THE FOLLOWING IF CHECK
 		if (table.max_meal == 0)
 			return (OK);
@@ -65,13 +63,14 @@ int	main(int ac, char **av)
 
 	if (ac == 5 || ac == 6)
 	{
+		if (ft_check_n_fill_table(av, &table) == ERROR)
+			return (ERROR);
+
         // EDIT BEGIN
 		if (table.max_meal == 0)
 			return (OK);
         //EDIT END
 
-		if (ft_check_n_fill_table(av, &table) == ERROR)
-			return (ERROR);
 		if (ft_make_spoon(&table) == ERROR || ft_make_philo(&table) == ERROR)
 		{
 			ft_clean_table(&table);
