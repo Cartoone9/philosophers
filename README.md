@@ -11,7 +11,6 @@ This is my implementation of the Dining Philosophers problem for 42 School. The 
 - [About](#philosophers)
 - [The Dining Philosophers Problem](#the-dining-philosophers-problem)
 - [Usage](#usage)
-- [Controls](#controls)
 - [Example](#example)
 - [Note on Project State](#note-on-project-state)
 - [Known Issues & Fix Suggestions](#known-issues--fix-suggestions)
