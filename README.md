@@ -6,6 +6,17 @@
   
 This is my implementation of the Dining Philosophers problem for 42 School. The goal was to manage concurrency and shared resources safely in C using threads and mutexes. Through this, I learned the fundamentals of multithreading, deadlock avoidance, and synchronization.
 
+## Table of Contents
+
+- [About](#philosophers)
+- [The Dining Philosophers Problem](#the-dining-philosophers-problem)
+- [Usage](#usage)
+- [Controls](#controls)
+- [Example](#example)
+- [Note on Project State](#note-on-project-state)
+- [Known Issues & Fix Suggestions](#known-issues--fix-suggestions)
+- [License](#license)
+
 ### The Dining Philosophers Problem
 
 The Dining Philosophers problem is a classic concurrency scenario where several philosophers sit around a table, each needing two forks to eat: one from their left and one from their right. Since the forks are shared between neighbors, a naive implementation can lead to deadlocks (where everyone is waiting forever) or starvation (where some never get to eat). The challenge lies in coordinating access to these shared resources safely and efficiently using threads and synchronization.
