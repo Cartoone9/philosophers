@@ -13,7 +13,6 @@ The Dining Philosophers problem is a classic concurrency scenario where several 
 ## Table of Contents
 
 - [About](#philosophers)
-- [The Dining Philosophers Problem](#the-dining-philosophers-problem)
 - [Usage](#usage)
 - [Example](#example)
 - [Note on Project State](#note-on-project-state)
